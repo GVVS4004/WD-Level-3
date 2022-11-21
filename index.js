@@ -15,7 +15,7 @@ const todoList = () => {
       // ..
       var od = [];
       for (var i = 0; i < all.length; i++) {
-        if (all[i].dueDate == '2022-11-15') {
+        if (all[i].dueDate == '2022-11-20') {
           od.push(all[i]);
         }
       }
@@ -30,7 +30,7 @@ const todoList = () => {
       // ..
       var dt = []
       for (var i = 0; i < all.length; i++) {
-        if (all[i].dueDate == '2022-11-16') {
+        if (all[i].dueDate == '2022-11-21') {
           dt.push(all[i]);
         }
       }
@@ -46,7 +46,7 @@ const todoList = () => {
       // ..
       var dl = []
       for (var i = 0; i < all.length; i++) {
-        if (all[i].dueDate == '2022-11-17') {
+        if (all[i].dueDate == '2022-11-22') {
           dl.push(all[i]);
         }
       }
@@ -63,7 +63,7 @@ const todoList = () => {
   
       var OUTPUT_STRING = '';var i;
       for (i = 0; i < list.length - 1; i++) {
-        if (list[i].dueDate != '2022-11-16') {
+        if (list[i].dueDate != '2022-11-21') {
           OUTPUT_STRING = OUTPUT_STRING + '[ ] ' + list[i].title + ' ' + list[i].dueDate + '\n';
         }
         else {
@@ -76,7 +76,7 @@ const todoList = () => {
         }
       }
   
-      if (list[i].dueDate != '2022-11-16') {
+      if (list[i].dueDate != '2022-11-21') {
         OUTPUT_STRING = OUTPUT_STRING + '[ ] ' + list[i].title + ' ' + list[i].dueDate;
       }
       else {
